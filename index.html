@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <script type="text/javascript" src="assests/js/app.js"></script>
+</head>
+<body>
+    <div>
+
+
+        <h1>Flower Gify Search</h1>
+    
+        <p><strong>NOTE:</strong> Click any of the buttons below to load 10 Gifs <br> 
+        Click on each gif image to play and stop them.<br>
+        You can add your own buttons by entering a topic in the box below.</p>
+    
+        
+        <!-- Rendered Buttons will get Dumped Here  -->
+    
+        <div id="topicsView"></div>
+        
+        
+        
+        <form id="topicForm">
+             <div class="form-group">
+                 <div class="row">
+                     <div class="col-xs-4">
+                        <label for="topicInput"><p>Add a Topic to the buttons above</p></label>
+    
+                        
+                        <input type="text" id="topicInput" class="form-control" placeholder="Enter here">
+    
+                        <!-- Button triggers new topic to be added -->
+                        <input id="addTopic" type="submit" value="Submit">
+                        
+                    </div>
+                </div>
+    
+            </div>
+    
+            
+        
+        </form>
+    
+    
+        <!-- Gifs go here-->
+        <div id="gifView"></div>
+    
+        </div>
+        
+</body>
+</html>

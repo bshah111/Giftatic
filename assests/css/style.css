@@ -1,0 +1,43 @@
+h1 {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 50px;
+	margin-bottom: 10px;
+
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+
+.topicButton{
+    margin: 10px;
+    color: palevioletred;
+    font-weight: 600;
+    background-color: azure
+    
+}
+
+body{
+  background: url('../images/gifbackground3.jpg')
+
+}
+
+#topicInput{
+	margin: 10px;
+}
+
+#addTopic{
+    margin: 10px;
+    color: palevioletred;
+    font-weight: 600;
+    background-color: azure
+
+}
+
+p{
+    font-size: 20px;
+    
+}
