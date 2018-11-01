@@ -21,7 +21,10 @@ p{
 }
 
 body{
-  background: url('../images/gifbackground3.jpg')
+  background: url('../images/gifbackground3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 
 }
 
